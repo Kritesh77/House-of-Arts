@@ -1,0 +1,25 @@
+.tp-caption.dark-light-100,
+.tp-caption.dark-light-32,
+.title-fs-60,
+.title-fs-45 {
+  color: #c47a5e;
+}
+.slider-1-cap-line {
+  background-color: #6b3521;
+  width: 150px;
+}
+.logo-img {
+  height: 60px;
+}
+.fes2-text-cont {
+  color: #6b3521;
+}
+.logo-footer {
+  max-height: 159px;
+}
+html {
+  scroll-behavior: smooth;
+}
+.about-us .header-wrapper {
+  background-color: white;
+}

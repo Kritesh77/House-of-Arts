@@ -2258,6 +2258,11 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
   margin: 0;
   padding: 0;
   background:#2c2c2c url(../images/work-proc-bg.jpg) fixed;
+}.video-ads-bg-2 {
+  will-change: background-position;
+  margin: 0;
+  padding: 0;
+  background:#2c2c2c url(../images/work-proc-bg-2.jpg) fixed;
 }
 .video-ads-text-cont {
   margin:0 auto;
@@ -2289,7 +2294,7 @@ table.shopping-cart-table tr th, table.shopping-cart-table tr td {
     font-size:28px;
     line-height:28px;
   }
-  .video-ads-bg, .work-proc-1-bg {
+  .video-ads-bg,.video-ads-bg-2, .work-proc-1-bg {
     background-attachment:scroll;
   }
 }
@@ -6211,7 +6216,7 @@ a:hover, a:focus {
     padding-bottom:40px;
   }
   .page-title-cont.page-title-large {
-    padding-top:30px;
+    padding-top:70px;
   }
   .page-title-cont.page-title-large.blog-single-fullwidth-img {
     padding-top:480px;
@@ -8042,7 +8047,7 @@ h2.portfolio-timeline-title {
     top: 0;
     width: 100%;
   }
-  #main-menu .navbar .nav .open-sub:before {
+  /* #main-menu .navbar .nav .open-sub:before {
     content: "\e232";
     font-size: 20px;
     font-family: "linea-icons" !important;
@@ -8058,7 +8063,7 @@ h2.portfolio-timeline-title {
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-  }
+  } */
   #main-menu .navbar .nav .current .open-sub:before {
     color:#fff;
   }
